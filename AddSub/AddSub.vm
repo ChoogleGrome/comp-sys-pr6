@@ -4,9 +4,10 @@
 
 // Put your code here.
 
-push local a
-push local b
+push local 1
+push local 2
 add
-push static x
+push static 1
 sub
-pop static x
+pop static 1
+
