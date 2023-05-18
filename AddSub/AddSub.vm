@@ -10,4 +10,5 @@ add
 push static 0
 sub
 pop static 0
+pop static 0
 
