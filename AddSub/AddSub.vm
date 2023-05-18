@@ -10,3 +10,6 @@ add
 push static 0
 sub
 pop static 0
+
+label END
+goto END
