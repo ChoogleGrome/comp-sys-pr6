@@ -4,9 +4,17 @@
 // Put your code here.
 
 push static 0
+push constant 0
+gt
+if-goto positive
+push static 0
 neg
 pop static 1
+goto END
 
+label positive
+    push static 0
+    pop static 1
 
 label END
 goto END
